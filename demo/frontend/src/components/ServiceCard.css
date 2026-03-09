@@ -1,0 +1,67 @@
+.svc-card {
+    width: 360px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
+    font-family: Arial, sans-serif;
+}
+
+.svc-header {
+    background: #2f5f98;
+    color: white;
+    padding: 18px;
+}
+
+.svc-category {
+    font-size: 14px;
+    opacity: 0.85;
+    margin-bottom: 8px;
+}
+
+.svc-title {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.05;
+}
+
+.svc-body {
+    padding: 18px;
+}
+
+.svc-tags {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+}
+
+.svc-tag {
+    background: #e9e9e9;
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.svc-description {
+    font-size: 16px;
+    color: #222;
+    line-height: 1.4;
+    margin-bottom: 24px;
+}
+
+.svc-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.svc-button {
+    border: none;
+    background: none;
+    color: #2f5f98;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 14px;
+}
